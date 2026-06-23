@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Types</title>
+  </head>
+  <body>
+    <form>
+      <label>Enter your gender:</label>
+      <input type="radio" name="Gender" id="m" value="Male" />
+      <label for="m">Male: </label>
+      <input type="radio" name="Gender" id="f" value="Female" />
+      <label for="f">Female: </label>
+      <br />
+      <label>Skills:</label><br />
+      <input type="checkbox" name="skill" id="j" value="Java" />
+      <label for="j">Java</label>
+      <input type="checkbox" name="skill" id="p" value="Python" />
+      <label for="p">Python</label>
+      <input type="checkbox" name="skill" id="c" value="C" />
+      <label for="c">C</label><br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
